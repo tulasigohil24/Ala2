@@ -3,67 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title><!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Happy Birthday Tulasi Gohil</title>
-<style>
-    body {
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background: linear-gradient(45deg, #ff9a9e, #fad0c4, #fbc2eb);
-        font-family: 'Comic Sans MS', cursive;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        flex-direction: column;
-    }
-    h1 {
-        font-size: 3.5em;
-        color: #fff;
-        text-align: center;
-        text-shadow: 3px 3px 10px rgba(0,0,0,0.5);
-        animation: glow 2s infinite alternate;
-    }
-    @keyframes glow {
-        from { text-shadow: 0 0 10px #ff00ff, 0 0 20px #ff33cc; }
-        to { text-shadow: 0 0 20px #33ccff, 0 0 40px #ff6699; }
-    }
-    .balloon {
-        position: absolute;
-        width: 60px;
-        height: 80px;
-        background: radial-gradient(circle at 30% 30%, #ff69b4, #ff1493);
-        border-radius: 50%;
-        animation: floatUp 8s linear infinite;
-    }
-    @keyframes floatUp {
-        0% { transform: translateY(100vh) rotate(0deg); opacity: 1; }
-        100% { transform: translateY(-200px) rotate(360deg); opacity: 0; }
-    }
-</style>
-</head>
-<body>
-    <h1>🎉 Happy Birthday <br> Tulasi Gohil en.n:031 🎂</h1>
-
-    <script>
-        function createBalloon() {
-            const balloon = document.createElement('div');
-            balloon.classList.add('balloon');
-            balloon.style.left = Math.random() * window.innerWidth + 'px';
-            balloon.style.background = `radial-gradient(circle at 30% 30%, hsl(${Math.random() * 360}, 80%, 60%), hsl(${Math.random() * 360}, 80%, 40%))`;
-            balloon.style.animationDuration = (5 + Math.random() * 5) + 's';
-            document.body.appendChild(balloon);
-            setTimeout(() => balloon.remove(), 8000);
-        }
-        setInterval(createBalloon, 400);
-    </script>
-</body>
-</html>Happy Birthday Tulasi Gohil</title>
 <style>
     body {
         margin: 0;
